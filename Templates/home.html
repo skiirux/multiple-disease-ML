@@ -14,24 +14,22 @@
   }
   .container {
     background: rgba(255, 255, 255, 0.103);
-    padding: 50px;
+    padding: 100px;
+    margin-left: 10%;
   }
 </style>
 <div class="container">
   <div>
     <span style="font-size: 50px; padding: auto"
-      >Medibuddy: <br />
+      >HealthMania: <br />
       Smart Disease Predictor</span
     >
     <img
-      style="float: right"
+      style="float: right" 
       src="{{ url_for('static', filename = 'banner_img.png') }}"
     />
   </div>
-
-  <br />
-  <br />
-  <br />
+  <div class="model-accuracies">
   <h2>Model Accuracies:</h2>
   <ul>
     <li>Diabetes Model: <strong>92.54%</strong></li>
@@ -40,12 +38,10 @@
     <li>Kidney Disease Model: <strong>99.16%</strong></li>
     <li>Liver Disease Model: <strong>71.18%</strong></li>
   </ul>
-  <br /><br /><br /><br /><br /><br /><br />
-  <br />
-  <h3>Information about the Diseases:</h3>
-  <br />
+ </div>
 
-  <br />
+  <h3>Information about the Diseases:</h3>
+
   <div class="row">
     <h4>Diabetes</h4>
     <p>
