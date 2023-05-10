@@ -99,15 +99,6 @@ def kidneyPage():
 
 @app.route("/liver", methods=['GET', 'POST'])
 def liverPage():
-    return render_template('liver.html')
-
-# @app.route("/malaria", methods=['GET', 'POST'])
-# def malariaPage():
-#     return render_template('malaria.html')
-
-# @app.route("/pneumonia", methods=['GET', 'POST'])
-# def pneumoniaPage():
-#     return render_template('pneumonia.html')
 
 
 @app.route("/predict", methods=['POST', 'GET'])
